@@ -13,6 +13,8 @@ export class ProgramsComponent implements OnInit {
   ngOnInit(): void {
   }
   onNavigate(endpoint: string) {
-    this.router.navigate([endpoint]);
+    this.router.navigate([endpoint]).then(() => {
+      window.location.reload();
+    });
   }
 }

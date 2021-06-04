@@ -1,0 +1,175 @@
+
+<div class="row mt-5 mb-5" >
+    <div class="col-md-7">
+        <div class="card">
+            <div class="card-header bg-dark text-white " >
+                <h4 class="title">Project Detail</h4>
+            </div>
+            <div class="card-content mt-3 mr-3 ml-3 mb-3">
+                <form>
+                     <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                                <label >Title</label>
+                                <input type="text" name="title" class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                                <label >Manager</label>
+                                <select class="selectpicker form-control" data-live-search="true">
+                                    <option data-tokens="ketchup mustard">Ahmed</option>
+                                    <option data-tokens="mustard">Brahim</option>
+                                    <option data-tokens="frosting">Zakaria</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group ">
+                                <label >Description</label>
+                                <textarea name="description" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                                <label >Start date</label>
+                                <input type="date" name="startDate" class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group ">
+                                <label >End date</label>
+                                <input type="date" name="endDate" class="form-control" value="">
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary w-25"><i class="fas fa-save"></i> Save</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+        <!--reports-->
+        <div class="card mt-2">
+            <div class="card-header bg-dark text-white " >
+                <h4 class="title">Project Reports</h4>
+            </div>
+            <div class="card-content mt-3 mr-3 ml-3 mb-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                              <th scope="col">Type</th>
+                              <th scope="col">Asset</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th>Domaine</th>
+                              <td>http://aaa.com</td>
+                            </tr>
+                            <tr>
+                                <th>Other</th>
+                                <td>aaaaaaaa</td>
+                              </tr>
+                              <tr>
+                                <th>Executable</th>
+                                <td>http://aaa.com</td>
+                              </tr>
+                          </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+        <!--reports-->
+    </div>
+
+    <div class="col-md-5">
+        <div class="card card-profile mb-2">
+            <div class="card-header bg-dark text-white" >
+                <h4 class="title">Project assets</h4>
+            </div>
+            <div class="content">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">Type</th>
+                              <th scope="col">Asset</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th>Domaine</th>
+                              <td>http://aaa.com</td>
+                            </tr>
+                            <tr>
+                                <th>Other</th>
+                                <td>aaaaaaaa</td>
+                              </tr>
+                              <tr>
+                                <th>Executable</th>
+                                <td>http://aaa.com</td>
+                              </tr>
+                          </tbody>
+                    </table>
+                  </div>
+            </div>
+            <div class="card-footer text-center">
+                <button type="button" class="btn btn-primary" style="margin-right: 5px;"><i class="fas fa-link"></i> Manage Assets </button>
+            </div>
+        </div>
+        
+            <div class="card card-profile">
+                <div class="card-header bg-dark text-white" >
+                    <h4 class="title">Project attachements</h4>
+                </div>
+                <div class="content">
+                    <div class="table-responsive text-center">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                  <th scope="col">Name</th>
+                                  <th scope="col">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th>aaa.pdf</th>
+                                  <td>
+                                    <button type="button"  class="btn btn-info mr-2" data-toggle="tooltip" title="Detail"><i class="fas fa-download"></i></button>
+                                    <button type="button" class="btn btn-danger" data-toggle="tooltip" title="Delete"><i class="fas fa-trash"></i></button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                    <th>bbb.xsl</th>
+                                    <td>
+                                        <button type="button"  class="btn btn-info mr-2" data-toggle="tooltip" title="Detail"><i class="fas fa-download"></i></button>
+                                        <button type="button" class="btn btn-danger" data-toggle="tooltip" title="Delete"><i class="fas fa-trash"></i></button>
+                                   </td>
+                                </tr>
+                                
+                              </tbody>
+                        </table>
+                      </div>
+                </div>
+                <div class="card-footer text-center">
+                    <button type="button" class="btn btn-primary" style="margin-right: 5px;"><i class="fas fa-link"></i> Add Attachement </button>
+                </div>
+            </div>
+    
+    </div>
+    
+</div>

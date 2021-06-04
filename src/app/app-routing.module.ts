@@ -13,8 +13,12 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CompanyProfileComponent } from './company-profile/company-profile.component';
 import { ReportComponent } from './programs/report/report.component';
+import { AddProjectComponent } from './company-profile/add-project/add-project.component';
+import { ProjectDetailComponent } from './company-profile/project-detail/project-detail.component';
 
 const routes: Routes = [
+  { path: 'companyprofile/projectdetail', component: ProjectDetailComponent /*, canActivate: [AuthGuard]*/},
+  { path: 'companyprofile/addproject', component: AddProjectComponent /*, canActivate: [AuthGuard]*/},
   { path: 'programs/report', component: ReportComponent /*, canActivate: [AuthGuard]*/},
   { path: 'auth/signup', component: SignupComponent },
   { path: 'auth/signup/personsignup', component: PersonSignupComponent },

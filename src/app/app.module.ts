@@ -21,6 +21,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { CompanyProfileComponent } from './company-profile/company-profile.component';
 import { DataTablesModule } from 'angular-datatables';
 import { ReportComponent } from './programs/report/report.component';
+import { AddProjectComponent } from './company-profile/add-project/add-project.component';
+import { ProjectDetailComponent } from './company-profile/project-detail/project-detail.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ReportComponent } from './programs/report/report.component';
     HomeComponent,
     ProfileComponent,
     CompanyProfileComponent,
-    ReportComponent
+    ReportComponent,
+    AddProjectComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
